@@ -16,19 +16,22 @@
 ### 1. **Approximate each player's equity. Who has the equity advantage?**
 
 
-### 2. **What are the weakest hands that could go all in on the flop? Go for three streets of value on blank turns?**
+### 2. **Give a qualitative description of how each player's range interacts with the board?**
 
 
-### 3. **Which player has the nuts advantage?**
+### 3. **What are the weakest hands that could go all in on the flop? Go for three streets of value on blank turns?**
 
 
-### 4. **How static or dynamic is this flop? What aspects of this flop make it more static or dynamic?  How do these aspects interact with one another?**
+### 4. **Which player has the nuts advantage?**
 
 
-### 5. **On this flop do you prefer to bet small or large?  With what frequencies would you check and bet?**
+### 5. **How static or dynamic is this flop? What aspects of this flop make it more static or dynamic?  How do these aspects interact with one another?**
 
 
-### 6. **Say you adopt a strategy where you either bet with your preferred sizing or check. You choose to bet and villain calls. What are the best and worst turn cards for your range?**
+### 6. **On this flop do you prefer to bet small or large?  With what frequencies would you check and bet?**
+
+
+### 7. **Say you adopt a strategy where you either bet with your preferred sizing or check. You choose to bet and villain calls. What are the best and worst turn cards for your range?**
 
 
 ## Hands for flop A<span style="color:#000000;">&spades;</span>7<span style="color:#000000;">&spades;</span>2<span style="color:#0088ff;">&diams;</span>
