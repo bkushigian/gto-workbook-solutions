@@ -53,7 +53,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#ff0000;">&hearts;</span>6<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 2. <b>A<span style="color:#ff0000;">&hearts;</span>6<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -71,7 +71,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 3. <b>A<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -89,7 +89,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>7<span style="color:#ff0000;">&hearts;</span>7<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 4. <b>7<span style="color:#ff0000;">&hearts;</span>7<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -107,7 +107,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>8<span style="color:#000000;">&spades;</span>8<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 5. <b>8<span style="color:#000000;">&spades;</span>8<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -125,7 +125,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#000000;">&spades;</span>A<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 6. <b>A<span style="color:#000000;">&spades;</span>A<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -143,7 +143,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>Q<span style="color:#008800;">&clubs;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 7. <b>Q<span style="color:#008800;">&clubs;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -161,7 +161,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>K<span style="color:#008800;">&clubs;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 8. <b>K<span style="color:#008800;">&clubs;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -179,7 +179,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>Q<span style="color:#ff0000;">&hearts;</span>J<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 9. <b>Q<span style="color:#ff0000;">&hearts;</span>J<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
@@ -197,7 +197,7 @@
 
 8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>J<span style="color:#000000;">&spades;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 10. <b>J<span style="color:#000000;">&spades;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
