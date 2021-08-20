@@ -54,7 +54,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>K<span style="color:#0088ff;">&diams;</span>3<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 2. <b>K<span style="color:#0088ff;">&diams;</span>3<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -70,7 +70,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>4<span style="color:#008800;">&clubs;</span>3<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 3. <b>4<span style="color:#008800;">&clubs;</span>3<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -86,7 +86,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>T<span style="color:#0088ff;">&diams;</span>6<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 4. <b>T<span style="color:#0088ff;">&diams;</span>6<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -102,7 +102,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>K<span style="color:#008800;">&clubs;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 5. <b>K<span style="color:#008800;">&clubs;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -118,7 +118,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>6<span style="color:#008800;">&clubs;</span>5<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 6. <b>6<span style="color:#008800;">&clubs;</span>5<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -134,7 +134,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>K<span style="color:#008800;">&clubs;</span>6<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 7. <b>K<span style="color:#008800;">&clubs;</span>6<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -150,7 +150,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>J<span style="color:#008800;">&clubs;</span>T<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 8. <b>J<span style="color:#008800;">&clubs;</span>T<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -166,7 +166,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>K<span style="color:#008800;">&clubs;</span>8<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 9. <b>K<span style="color:#008800;">&clubs;</span>8<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -182,7 +182,7 @@
 
 7. **Suppose you check the flop and villain checks behind. Discuss your turn strategy.**
 
-### Combo 1. <b>9<span style="color:#000000;">&spades;</span>3<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
+### Combo 10. <b>9<span style="color:#000000;">&spades;</span>3<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>J<span style="color:#0088ff;">&diams;</span>4<span style="color:#0088ff;">&diams;</span>)
 
 1. **Do you ever check/fold this hand?**
 

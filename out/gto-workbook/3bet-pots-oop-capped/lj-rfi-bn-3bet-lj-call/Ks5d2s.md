@@ -68,7 +68,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>J<span style="color:#000000;">&spades;</span>T<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 2. <b>J<span style="color:#000000;">&spades;</span>T<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -92,7 +92,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>9<span style="color:#ff0000;">&hearts;</span>9<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 3. <b>9<span style="color:#ff0000;">&hearts;</span>9<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -116,7 +116,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#000000;">&spades;</span>5<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 4. <b>A<span style="color:#000000;">&spades;</span>5<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -140,7 +140,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>K<span style="color:#ff0000;">&hearts;</span>J<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 5. <b>K<span style="color:#ff0000;">&hearts;</span>J<span style="color:#ff0000;">&hearts;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -164,7 +164,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>T<span style="color:#000000;">&spades;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 6. <b>T<span style="color:#000000;">&spades;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -188,7 +188,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>K<span style="color:#008800;">&clubs;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 7. <b>K<span style="color:#008800;">&clubs;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -212,7 +212,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>J<span style="color:#ff0000;">&hearts;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 8. <b>J<span style="color:#ff0000;">&hearts;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -236,7 +236,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#000000;">&spades;</span>J<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 9. <b>A<span style="color:#000000;">&spades;</span>J<span style="color:#000000;">&spades;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
@@ -260,7 +260,7 @@
 
 11. **Suppose you check the flop, villain bets 1/3 pot, and and you call behind. What are the best and worst turn cards for this hand?**
 
-### Combo 1. <b>A<span style="color:#0088ff;">&diams;</span>T<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
+### Combo 10. <b>A<span style="color:#0088ff;">&diams;</span>T<span style="color:#0088ff;">&diams;</span></b>    (Flop: K<span style="color:#000000;">&spades;</span>5<span style="color:#0088ff;">&diams;</span>2<span style="color:#000000;">&spades;</span>)
 
 1. **Do you ever check/fold this hand?**
 
