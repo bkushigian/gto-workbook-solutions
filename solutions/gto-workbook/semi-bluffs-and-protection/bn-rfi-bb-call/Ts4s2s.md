@@ -166,13 +166,23 @@ Board pairing cards also aren't great for range.
 ## Hands for flop T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>
 ### Combo 1. <b>K<span style="color:#ff0000;">&hearts;</span>T<span style="color:#ff0000;">&hearts;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+
+   This hand should have around 60% equity, but this should be under-realized.
+   I'd expect the EV to be around $0.33 in a pot of $0.65
+
+   + **From the solver:** 
+     + Equity: 67%,
+     + EV: $0.39 = 60% of pot
+     + EqR: 39/67 = 90%
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
     No.
 
     + **From the solver:** facing a small bet villain is not folding any pairs.
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
     Worse pairs should be calling, as well as some drawing hands (though these
     have plenty of equity against us)
@@ -182,20 +192,20 @@ Board pairing cards also aren't great for range.
       without a spade, which does fairly well against us and can bluff us
       a lot on many runouts.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
     We aren't folding out any strong draws, we are are going to get folds from
     some random Jx/Qx/Ax which we are happy to see.
 
     + **From the solver:** Yup.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
     This hand is doing okay after a single small bet goes into the pot but
     will have to give up on a lot of runouts. This hand certainly doesn't
     want to play a big pot.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
     This hand should be doing okay, but not great, when called. It should
     probably under-realize equity given the board and it's strength.
@@ -204,7 +214,7 @@ Board pairing cards also aren't great for range.
       but only takes about 1/2 the pot and under-realizes it's equity by a fair
       amount (not surprising).
 
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
 
     Not very well. I think it should maybe call at equilibrium at some frequency,
     but not surprised if it's a mix. I'd imagine a x/r from villain should be
@@ -213,7 +223,7 @@ Board pairing cards also aren't great for range.
     + **From the solver:** Yup, this hand is just about indifferent (EV = 0.02) when
       check-raised. We always call.
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
     High level incentives:
     1. **Protection:** this hand is decent now but won't be on later streets. If
@@ -253,35 +263,45 @@ Board pairing cards also aren't great for range.
 
 ### Combo 2. <b>A<span style="color:#0088ff;">&diams;</span>8<span style="color:#008800;">&clubs;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+
+   Probably around 45% equity, but I'm guessing EV is around $0.20, severely
+   under-realizing it's equity.
+
+   + **From the solver:** 
+     + Equity: 39%
+     + EV: $0.14 (21% of pot)
+     + EqR: 21% / 39% = 53%
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
    Not really, maybe like an A9 w/out a spade? But that's about it.
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
    No. There are hands w/ less showdown than us but with plenty of equity that can bluff us
    off.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    A-high has marginal showdown and can be best a lot of the time. By getting folds
    from any two cards (we don't dominate) then we prevent random pairs.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    No. Maybe we hit an A on the turn, and we'll be a bit more comfortable w/
    putting more money in, but even when we run out like AA or A8 no spade we
    still don't feel great.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
    We are doing very bad.
 
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
     
     Horribly, pure fold.
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
    This hand doesn't want to put much, if any, money in. It is a natural checking candidate,
    but it also might benefit from a protection bet. It has a bit too much showdown to be a
@@ -291,47 +311,68 @@ Board pairing cards also aren't great for range.
 
    I'd put this hand into my bet/give upt range.
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
    Best turns are any non-spade A/8. A 3 or a 5 gives us a draw as well, but to the bottom end
    of the straight.
 
 ### Combo 3. <b>4<span style="color:#ff0000;">&hearts;</span>3<span style="color:#ff0000;">&hearts;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+
+   This hand has less equity than K&hearts;T&hearts; (67%) but more than
+   A&diams;8&clubs; (39%), probably around 55%. It still under-realizes its
+   equity, but I think less so than K&hearts;T&hearts; since it has a backdoor
+   draw. I'm guessing `EqR = (EV/pot)/Eq = 0.91`, so
+   ```
+   EV = 0.91 * 0.65 * Eq 
+      = 0.91 * 0.65 * 0.58 
+      = 0.33
+   ```
+
+   + **From the solver:** 
+     + Equity: 49%
+     + EV: $0.23 (35% of pot)
+     + EqR: 35% / 49% = 71%
+   
+      Yikes, I was way off. This hand significantly under-realizes equity, and
+      the backdoor draw does very little to help. I guess that makes sense,
+      since there are few clean runouts, and we aren't drawing to the nuts.
+   
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
    No. Bb should be calling with a pair or better.
 
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
    Some A-high, some backdoor draws (like QJ), but nothing that we have solidly beat. We are also blocking some draws like 53 that might call.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    Yeah, just about any turn is bad for us.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    Not on most runouts. If the runout is A,5 no spade and Bb isn't playing aggressively then
    we can consider polarizing on the river, but on most runouts we want to play smaller pots.
 
    This hand _could_ be turned into a bluff on the turn.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
    We are doing very poorly when called. I'd guess we have less than 40% equity when called.
 
    + **From the solver:** We have around 35% equity but ev of 0.27 in a pot of 1.08, seriously
      underrealizing equity.
 
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
 
    Very bad. If we bet and get x/r then I think we fold this. We do have a backdoor draw, but not a good one, and probably not enough to justify continuing
 
    + **From the solver:** we are indifferent between calling and folding and we mix
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
   1. This hand wants to try to navigate to showdown as cheaply as possible.
   2. This hand doesn't get much value from a value bet
@@ -340,7 +381,7 @@ Board pairing cards also aren't great for range.
 
   I think this hand is probably pretty indifferent between betting and checking.
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
     If we bet small and villain calls we are in pretty bad shape. Here are our best turns:
 
@@ -364,22 +405,35 @@ Board pairing cards also aren't great for range.
 
 ### Combo 4. <b>T<span style="color:#0088ff;">&diams;</span>T<span style="color:#008800;">&clubs;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+
+   This hand has around 80% equity against villain's range OTF, and I think it
+   should over-realize that equity; I'd estimate EV at $0.90, which is 138% pot,
+   and EqR = 138 / 80 = 172%.  This is a hand that can get calls from worse
+   hands, and can raise all in when the board pairs, getting extra $$ from
+   flushes.
+
+   + **From the solver:** 
+     + Equity: 83%
+     + EV: $0.88 (135% of pot)
+     + EqR: 135% / 83% = 162%
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
    No
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
    Yes,  we beat anything that's not a flush that calls. I would guess we have
    about 80% equity (solver says 76%).
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    No, we are not getting flush draws to fold, and that's about all we need
    protection from. Even when the flush gets there, sometimes the board pairs
    and we have the nuts.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    Yes. While this is a scary board we still have a ton of equity. Villain has a
    lot of flushes, but they have even more flush draws, and we would rather put
@@ -387,14 +441,14 @@ Board pairing cards also aren't great for range.
    the nuts (14% on turn, 20% on river). At 100bb we are probably happy to play
    a bigish pot, and are willing to (but would rather not) go all in.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
    As above,  we are doing very well with about 80% equity (again, solver says
    76% equity). This is close to the bottom end of 'nutted hands'. While it has
    76% equity of the $0.65 pot, it has a whopping $0.88 EV, seriously
    over-realizing it's equity by almost double.
     
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
 
    We are doing well. We might want to slow down our aggression since we are
    against a polarizing range, but we are beating some of their value (bottom
@@ -403,34 +457,48 @@ Board pairing cards also aren't great for range.
    + **From the solver:** We are still ahead of 72% of BB's x/r range, and
      facing a x/r we have EV of pot. This should be a pure call.
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
 ### Combo 5. <b>J<span style="color:#ff0000;">&hearts;</span>J<span style="color:#008800;">&clubs;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+
+   This should have around 70% equity, and I think it should realize all of it. While
+   it has to be careful of flushes, most hands that matter will be pairs and it
+   should be able to get value from those and call a river bet if need be.
+
+   + **From the solver:** 
+     + Equity: 67%
+     + EV: $0.41 (63% of pot)
+     + EqR: %63 / %67 = 94%
+
+   Yeah, I over-estimated the equity a bit, but I was basically right on. Slight
+   under-realization, but not much given that it's a pair on this board.
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
    No.
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
     Yes, we are ahead of any pair w/out a spade, as well as some draws.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    We might get some backdoor straight draws to fold, and I guess we are technically
    protected from splitting the pot on a spade spade runout. We also might
    protect from some bluffs on turns if we check back. Random Ax, Kx, Qx will
    fold out (like A7s, K8s, etc), so we benefit from that.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    This hand probably wants to play for about two bets. It's a strong hand,
    willing to call a check raise. It certainly doesn't want to play for stacks.
    On blank runouts, after a x/b/c;x/x;x I think we can value bet small.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
    We are ahead of all pairs. We are also doing okay against flush draws, though
    those might bluff us on the river. I think that on most turns bb should be
@@ -440,13 +508,13 @@ Board pairing cards also aren't great for range.
 
    I think we still have like 75% equity, and maybe 0.6pot ev.
 
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
 
    Not great. I imagine we call but with very low EV due to OOP's leverage. We have
    an overpair, but we still have a lot of streets until showdown, and we cannot hold
    up to a lot of aggression on many runouts.
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
    This hand wants to play for 1-2 bets. We can bet for value, and we can even bet some
    rivers for value after x/b/c;x/x;x.
@@ -458,7 +526,7 @@ Board pairing cards also aren't great for range.
    2pairs or trips.
 
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
    I've already noticed that this hand bets a lot, as opposed to any other
    (non-set) pocket pair, which primarily checks. I believe this is a mix of
@@ -467,29 +535,39 @@ Board pairing cards also aren't great for range.
 
 ### Combo 6. <b>A<span style="color:#0088ff;">&diams;</span>K<span style="color:#0088ff;">&diams;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+   Equity: 50%, EV: $0.29, EqR: 90%
+
+   + **From the solver:** 
+     + Equity: 45%
+     + EV: $0.18 (28% of pot)
+     + EqR: 28% / 45% = 62%
+
+   Overestimating backdoor draws again.
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
    No. We have nut no pair, and any pairs are calling.
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
    Some draws, but anything calling should either have a pair or have very good
    equity against us.
 
    I think we have about 20% equity when called, and probably like 0.05 EV.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    It has some equity w/ A-high, and that equity isn't very robust (any random 3
    making a pair beats us). So yeah, I think we stand to benefit from some
    protection.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    On most runouts, no. However, we do make the nut straight sometimes, and if
    no spades have come out then we can play a larger pot.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
   
    Bad. We really want to take the pot down on the flop if we bet. Still, we are called
    by a lot of pairs and we have some equity against them.
@@ -499,13 +577,13 @@ Board pairing cards also aren't great for range.
    any pairs, plus we are happy if we get them to fold. Given the backdoor
    potential, I think it makes sense to put this in our semibluffing range
 
-6. **How is this hand doing against a check-raise?**
+7. **How is this hand doing against a check-raise?**
 
    Bad. We have almost no showdown equity, beat no value, and don't want to
    polarize here, especially when we aren't drawing to the nuts. If we bet at
    all on the flop I think we fold.
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
    1. We have some showdown, but not much, and it will be hard to navigate to
       showdown with it.
@@ -524,26 +602,47 @@ Board pairing cards also aren't great for range.
     see a free card and maybe bluff later streets, but as it is we have a bit too much
     show down to turn into a bluff.
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+
+   If we check our best turns are non-spade A and K. After that, non-spade Q and
+   J, and maybe a 3 or a 5 for the wheel draw.
+
+   Worst turns are spades and paired board cards.
+
+   + **From the solver:** 
+     + **Best turns:** Non-spade A, K are best, followed by A&spades; K&spades;,
+       followed by Non-spade Q and non-spade Js.
+
+
+     + **Worst turn cards:** any spade (non A/K), and then 9,7,8,6,3. Paired boards
+       are also pretty bad
 
 ### Combo 7. <b>A<span style="color:#000000;">&spades;</span>A<span style="color:#008800;">&clubs;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
+   Equity: 80%, EV: $0.80, EqR = 153%
+   + **From the solver:** 
+     + Equity: 86%
+     + EV: $0.80 (123% of pot)
+     + EqR: 123% / 80% = 143%
+
+
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
    
    God no.
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
    Aces w/ the NFD. We are probably at about 80% equity and we should be
    over-realizing that equity. We doing _very_ well when called.
 
-3. **Does this hand benefit from a protection bet? Explain.**
+4. **Does this hand benefit from a protection bet? Explain.**
 
    No. The only thing that might beat us that isn't beating us already is a
    random straight, or maybe a random straight flush. But we already have the
    bottom part of those so protection is minimal.
 
-4. **Does this hand benefit from growing the pot? How so?**
+5. **Does this hand benefit from growing the pot? How so?**
 
    Yes. We want to play a larger pot here. We don't need to semibluff, and we
    don't want to play for stacks unimproved (but we'll call a shove if there are
@@ -553,67 +652,137 @@ Board pairing cards also aren't great for range.
    Without seeing  another spade I think this hand does best with 2-3 bets in
    the pot.
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
-6. **How is this hand doing against a check-raise?**
+   We are doing great. we are ahead of most of their range (sets, flushes,
+   2pair). What we aren't ahead of we are live against. 
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+7. **How is this hand doing against a check-raise?**
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+   We are doing just fine. Our EV will probably take a hit, but we have the nut
+   flush draw and top pair.
+
+   However, I think we check this back the majority of the time so we shouldn't
+   be facing too many x/r's.
+
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+
+   This hand wants to play for two bets, but can call more than that. It doesn't
+   need protection, aside from the random 2pair. It can face aggression on
+   later streets, and if villain doesn't start aggressing this hand can be the
+   aggressor on turns/rivers.
+
+   I don't think we are particularly afraid of a check-raise, but we don't
+   really want to see one either.
+
+   With this in mind, I think this hand can either check or bet flop, and is
+   probably a mix. Checking for pot control makes a lot of sense here. There
+   are some disaster runouts where we don't want to play for stacks.
+
+   This hand, when betting, prefers a smaller size.
+
+   This strategy lines up with the ranges strategy: bet small and not too often.
+
+   + **From the solver:** Yeah, this hand mixes checks and bets, checking about
+     60% of the time.
+
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+
+   In either case, betting or checking, we are happy to see an any spade or an Ace.
+
+   We really don't want to see a T, 4, or 2, especially after we've bet and
+   been called (since they should be very pair heavy). We also don't want to
+   see any low cards that complete straights (a 3 or a 5).
+
+   + **From the solver:**
+      (Check/check line)
+
+      + **Best Turns:** Any spade, Any ace.
+        Surprisingly, after that, a 2 is the next best card. I guess this blocks
+        bottom set and some 2-pair?
+      + **Worst Turns:** A T, K or Q. The T is because we might be up against trips I guess,
+        while the K or Q mean we probably don't get as much value from Tx (plus
+        villain landing some random 2pair). A 3 is also bad cuz it uncaps
+        villain a bit more
+
+      (Check/Bet 1/3 pot/Call line):
+      + Very similar actually...a 3 is a bit worse than a K or Q now, but other than
+        that things are very similar.
 
 ### Combo 8. <b>6<span style="color:#0088ff;">&diams;</span>3<span style="color:#0088ff;">&diams;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+   + **From the solver:** 
+     + Equity: 
+     + EV: $ (% of pot)
+     + EqR: % / % = %
 
-3. **Does this hand benefit from a protection bet? Explain.**
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
-4. **Does this hand benefit from growing the pot? How so?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+4. **Does this hand benefit from a protection bet? Explain.**
 
-6. **How is this hand doing against a check-raise?**
+5. **Does this hand benefit from growing the pot? How so?**
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+7. **How is this hand doing against a check-raise?**
+
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
 ### Combo 9. <b>J<span style="color:#000000;">&spades;</span>8<span style="color:#ff0000;">&hearts;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+   + **From the solver:** 
+     + Equity: 
+     + EV: $ (% of pot)
+     + EqR: % / % = %
 
-3. **Does this hand benefit from a protection bet? Explain.**
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
-4. **Does this hand benefit from growing the pot? How so?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+4. **Does this hand benefit from a protection bet? Explain.**
 
-6. **How is this hand doing against a check-raise?**
+5. **Does this hand benefit from growing the pot? How so?**
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+7. **How is this hand doing against a check-raise?**
+
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
 ### Combo 10. <b>K<span style="color:#0088ff;">&diams;</span>8<span style="color:#ff0000;">&hearts;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
 
-1. **If you bet this hand should you expect better hands to fold? If so, which hands?**
+1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
 
-2. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+   + **From the solver:** 
+     + Equity: 
+     + EV: $ (% of pot)
+     + EqR: % / % = %
 
-3. **Does this hand benefit from a protection bet? Explain.**
+2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
-4. **Does this hand benefit from growing the pot? How so?**
+3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
 
-5. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
+4. **Does this hand benefit from a protection bet? Explain.**
 
-6. **How is this hand doing against a check-raise?**
+5. **Does this hand benefit from growing the pot? How so?**
 
-7. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
-8. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
+7. **How is this hand doing against a check-raise?**
+
+8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
+
+9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
 # Notes and observations
 
@@ -651,9 +820,9 @@ I would describe the equity profile of Ts4s2s as _unbanded_, and the equity
 profile of AsTd5c as _banded_. The bands in the AT5 flop correspond to 
 
 1. air/low pairs (22, 33, 44)
-2. bottom pairs and pp>bottom pairs (66, 77), as well as some draws (QJo, KQo)
-3. middle pairs (Tx) and pp>middle pair (JJ, QQ, KK)
-4. Top pair+, including sets, 2pair, etc
+3. bottom pairs and pp>bottom pairs (66, 77), as well as some draws (QJo, KQo)
+4. middle pairs (Tx) and pp>middle pair (JJ, QQ, KK)
+5. Top pair+, including sets, 2pair, etc
 
 At the right of band 1  there is a trickle of checks, all of which are K9. These
 have around 42% equity.
