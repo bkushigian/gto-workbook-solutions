@@ -713,28 +713,123 @@ Board pairing cards also aren't great for range.
 
 1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
 
+   Equity: 25%,  EqR: I'm not sure, I'm guessing around 50%
+
+   This hand has very little equity, so it doesn't need to win much to realize
+   it's full equity. It can get some of this through bluffs, and then when it
+   makes a straight it can win a bet off of some pairs. It can't really
+   polarize, so I don't think it can really overrealize equity.
+
+   On the other hand, at equilibrium the bb should be calling enough to make
+   this hand indifferent to bluffing if it's possible (or even negative EV),
+   so it will be hard to get this hand to full EqR. My guess is EqR is around
+   50%.
+
+   My first guess was around 100%, but I've kinda talked myself into 50%.
+
    + **From the solver:** 
-     + Equity: 
-     + EV: $ (% of pot)
-     + EqR: % / % = %
+     + Equity: 24%
+     + EV: $0.16 (24% of pot)
+     + EqR: 24% / 24% = 100%
+
+     My first guess was correct. I'm currious how this hand is able to realize
+     it's equity...but I guess that's the point of me doing this workbook.
 
 2. **If you bet this hand should you expect better hands to fold? If so, which hands?**
 
+   Yeah, better high card hands.
+
 3. **If you bet this hand should you expect worse hands to call? If so, which hands?**
+
+   No way. Everything calling has more showdown value or is a better draw.
 
 4. **Does this hand benefit from a protection bet? Explain.**
 
+   Not really...I mean, if you squint real hard I guess a semibluff is kind of a
+   protection bet, but yeah, no realy showdown equity to protect.
+
 5. **Does this hand benefit from growing the pot? How so?**
+
+   It can benefit slightly on future streets if a 5 comes, but even then it's
+   basically just trying to get payed by pairs and can't really polarize. However,
+   on some runouts (say blank, check check, 5, x/b/r) we have a pretty good
+   bluff catcher (and _might_) even beat some slowplayed value. I'll have to check
+   how much flushes make up bb's range after we check through flop and turn,
+   versus sets. How do these play into their river check-raise range? Do we
+   actually beat some value when we bink the 5 on the river and get x/rd? I'd
+   assume that some sets will take that line, but most should be betting turn
+   after we check/check. Maybe 55 w/ a spade x/rs us?
 
 6. **How is this hand doing if you bet and get called? What parts of villain's range are you ahead of? Behind?**
 
+   We are behind EVERYTHING.
+
 7. **How is this hand doing against a check-raise?**
+
+   Bad, we fold.
 
 8. **What are this hand's incentives on this flop? Does it want to bet or check? If it wants to bet, what sizing does it prefer? Do these incentives line up with the strategy you proposed for your range above?**
 
+   This hand cannot bet for value. It has no equity to protect. It also doesn't improve
+   to the nuts. It can, however, make a verys strong hand on some runouts/action
+   sequences.
+
+   This hand benefits from keeping the pot smaller and seeing free turns. It can
+   sometimes hit a random pair. It can also bluff on later streets once the turn
+   checks to us again. We can also hit a straight and get payed off by
+   pairs/2pairs/sets.
+
+   I think this hand wants to check, but it could also want to bet as a bluff.
+   I'm not sure. Maybe a mix? We'll set preferred action to a check.
+
 9. **Suppose you take your preferred action from the last question (check or bet the preferred size). If this is a bet, suppose villain calls. What are the best and worst turn cards for this hand?**
 
+   Best: clearly a non-spade 5. After that a 6 or a 3 (non-spade of course),
+   giving a pair that can call a bet. If a 5 comes I think we can play for maybe
+   2 bets. If a 6 comes we probably can call once and then give up (or bet if
+   the turn checks to us). A 3 we can probably call but we don't bet turn.
+
+   Those ones are obvious. What else can we work with? We are blocking suited 4x
+   (64s, 63s) so we block some middle pair. This means we are blocking trips when
+   a 4 comes. We don't block any 2s (no 32s or 62s in bb's range). I'm not sure
+   if that gives us a tool to work with bluff wise.
+
+   If the turn is a 2 we could potentially bluff off some Tx and some 4x by
+   representing trips (even without blockers).
+
+   So I'd guess:
+   + Nonspade 5
+   + Nonspade 6
+   + Nonspade 3
+   + Nonspade 4
+   + Nonspade 2
+   + Nonspade T
+
+   Worst: any spade
+
+   + **From the solver:**
+     + **Best:** 
+       + Nonspade 5
+       + 5&spades; (i mean, yeah, makes sense...we can't push but we beat most of their value  still)
+       + nonspade 6
+       + nonspade 3
+       + 6&spades;
+       + 3&spades;
+       + nonspade 2
+       + nonspade A
+
+#### Random Observations
+So digging around in solver output for suited connectors/1gappers in the
+general vacinity of 63s I'm noticing that backdoor straights, who have equity
+less than 20%, are pure bluffs, while the gutshots tend to be pure checks.
+
+This makes sense. We don't have _that_ many bluffs before we overbluff, and 
+gutters have enough equity that they play better as a check.
+
+
 ### Combo 9. <b>J<span style="color:#000000;">&spades;</span>8<span style="color:#ff0000;">&hearts;</span></b>    (Flop: T<span style="color:#000000;">&spades;</span>4<span style="color:#000000;">&spades;</span>2<span style="color:#000000;">&spades;</span>)
+
+_**I'm skipping the last two combos as not-interesting**_
 
 1. **Estimate this hand's equity against villain's range. Estimate it's EV. Does this hand over-realize or under-realize it's equity?**
 
@@ -801,7 +896,7 @@ near vertical increase in equity realization.
  A&spades; when we are at the top of our curve).
 
  Also interesting is that OOP's graph looks very similar but  is down-shifted
- due to positional disadvantage:
+ due to positional disadvantage: 
 
 ![Equity Realization](img/Ts4s2s-oop-equity-vs-ev.PNG)
 
